@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Start from "./pages/start";
+import Signin from "./pages/signin";
 
 function App() {
   return (
     <>
       <Router>
         <Routes>
-          <Route path="/" element={<Start />} />
+          <Route path="/signin" element={<Signin />} />
         </Routes>
       </Router>
     </>
